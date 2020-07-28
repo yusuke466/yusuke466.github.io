@@ -1,9 +1,9 @@
 {
-  "name": "Google I/O 2015", // アプリケーション名
-  "short_name": "I/O 2015",  // 短縮名
-  "start_url": "./?utm_source=web_app_manifest", // エントリーポイント(省略可)
-  "display": "standalone", // これを指定するとブラウザーの枠がなくなり、よりアプリっぽくなる
-  "icons": [{ // 解像度別に用意しておくとブラウザーが必要に応じて選択してくれる
+  "name": "Google I/O 2015", 
+  "short_name": "I/O 2015",  
+  "start_url": "./?utm_source=web_app_manifest", 
+  "display": "standalone", 
+  "icons": [{ 
     "src": "images/touch/homescreen48.png",
     "sizes": "48x48",
     "type": "image/png",
@@ -29,7 +29,7 @@
     "type": "image/png",
     "density": "4"
   }],
-  "chrome_related_applications": [{ // 関連するアプリを指定するものと思われる
+  "chrome_related_applications": [{ 
     "platform": "web"
   }, {
     "platform": "android",
