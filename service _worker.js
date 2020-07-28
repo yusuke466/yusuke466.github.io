@@ -1,10 +1,9 @@
-// キャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
     '/yusuke466.github.io/',
 ];
 
-// インストール処理
+
 self.addEventListener('install', function(event) {
     event.waitUntil(
         caches
@@ -15,7 +14,6 @@ self.addEventListener('install', function(event) {
     );
 });
 
-// リソースフェッチ時のキャッシュロード処理
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches
